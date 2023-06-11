@@ -10,20 +10,20 @@ In the Content Browser, right-click in the desired folder
 Select Create Basic Asset > Blueprint Class.
 Choose the appropriate parent class for your AI character (e.g., Character or Pawn).
 Name the Blueprint (e.g., "AICharacter") and click Create.
-~~~
+
 
 STEP 2: Create a Blackboard:
 In the Content Browser, right-click in the desired folder.
 Select Create Basic Asset > AI > Blackboard.
 Name the Blackboard (e.g., "AIBlackboard") and click Create.
-~~~
+
 
 STEP 3: Open the Behavior Tree editor:
 In the Content Browser, find the Blackboard asset you just created.
 Right-click the Blackboard asset and select Create > Behavior Tree.
 Name the Behavior Tree (e.g., "AIBehaviorTree") and click Create.
 Double-click the Behavior Tree asset to open it in the Behavior Tree editor
-~~~
+
 STEP 4: Create Behavior Tree nodes:
 In the Behavior Tree editor, right-click in the graph and search for and add the following nodes:
 "Selector" node: Controls the execution of child nodes.
@@ -35,21 +35,21 @@ Connect the nodes to create the desired behavior flow.
 Connect the nodes to create the desired behavior flow. For example:
 Connect the Random decorator to the Sequence node.
 Connect the Move To task to one of the child nodes of the Random decorator.
-~~~
+
 STEP 5: Set up the Blackboard:
 Open the AIBlackboard asset.
 In the Blackboard editor, define the necessary keys for storing data, such as:
 Vector keys: for storing target locations.
 Bool keys: for storing condition flags.
 Save the AIBlackboard asset.
-~~~
+
 STEP 6: Set up the AI character Blueprint:
 Open the AICharacter Blueprint.
 In the Blueprint editor, find the Components panel.
 Add an AI Controller component to the AICharacter Blueprint.
 In the Details panel, under the AI Controller section, set the AIController Class to the desired AI controller class (e.g., AIController).
 Save the AICharacter Blueprint
-~~~
+
 STEP 7: Set the AI controller and behavior tree:
 Open the AIController Blueprint.
 
@@ -72,7 +72,7 @@ Connect the output of the Run Behavior Tree node to the AIController's Behavior 
 In the Behavior Tree property, select the AIBehaviorTree asset you created.
 
 Save the AIController Blueprint.
-~~~
+
 
 STEP 8: Set up the NavMesh and boundaries:
 Place a NavMeshBoundsVolume in your level to define the AI character's movement boundaries.
