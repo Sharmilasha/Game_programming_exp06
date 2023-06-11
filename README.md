@@ -80,6 +80,7 @@ Place a NavMeshBoundsVolume in your level to define the AI character's movement 
 Adjust the size and position of the NavMeshBoundsVolume to cover the desired playable area
 ~~~
 OUTPUT:
+
 ![e1](https://github.com/Sharmilasha/Game_programming_exp06/assets/94506182/01037e92-1259-4907-9915-7d129be6a930)
 ![ee2](https://github.com/Sharmilasha/Game_programming_exp06/assets/94506182/7cad5cd8-f637-4820-b365-eb3e8a8bec6e)
 ![ee3](https://github.com/Sharmilasha/Game_programming_exp06/assets/94506182/1fde6da7-79f9-4894-be6b-85cac8205c50)
