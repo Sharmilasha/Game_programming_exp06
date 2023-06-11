@@ -1,5 +1,6 @@
 # Game_programming_exp06
 EXP 06 - AI RANDOM MOVEMENT
+
 AIM:
 To implement AI concept to the actor for a random movement.
 
